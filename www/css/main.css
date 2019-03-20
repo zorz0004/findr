@@ -1,0 +1,22 @@
+/* 
+File: main.css
+Course: MAD-9022
+Student: Marcos Zorzi Rosa
+Project: FINDR
+Date: Mar 15 2019 */
+
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+#mymap{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid #333; */
+}
