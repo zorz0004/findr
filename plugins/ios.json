@@ -12,6 +12,9 @@
     },
     "cordova-plugin-geolocation": {
       "PACKAGE_NAME": "ca.edumedia.zorz0004.findr"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "ca.edumedia.zorz0004.findr"
     }
   },
   "dependent_plugins": {}
