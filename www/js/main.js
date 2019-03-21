@@ -15,7 +15,6 @@ const zorz0004 = {
     },
 
     initMap: function(){
-        // zorz0004.getPosition();
         //getPosition
         if("geolocation" in navigator){
             const opts = {
@@ -69,7 +68,7 @@ const zorz0004 = {
         //center map on marker
         map.panTo(latLng);
 
-        //ask for label (try modal window later)
+        //ask for label
         var myContent = zorz0004.labelPrompt();
         
         //User click Cancel
