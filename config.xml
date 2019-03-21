@@ -22,9 +22,10 @@
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
+        <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
+            <string>need location access to find things nearby</string>
+        </edit-config>
     </platform>
-    <edit-config file="*-Info.plist" mode="merge" target="NSLocationWhenInUseUsageDescription">
-        <string>need location access to find things nearby</string>
-    </edit-config>
+    <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
     <engine name="ios" spec="^4.5.5" />
 </widget>

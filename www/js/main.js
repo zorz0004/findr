@@ -129,11 +129,6 @@ const zorz0004 = {
             h1.textContent = element.label;
             p.textContent = "lat: "+JSON.stringify(element.position.lat) + ", lng:" + JSON.stringify(element.position.lng);
             button.setAttribute("id", element.id);
-            button.setAttribute("style",style='color:red; \
-            border:none; \
-            background-color:inherit; \
-            font-size: 16px; \
-            display: inline-block;');
             button.textContent = "Remove";
 
             div.appendChild(h1);

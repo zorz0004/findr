@@ -20,3 +20,14 @@ body{
     width: 100vw;
     /* border: 2px solid #333; */
 }
+
+button{
+    color:red;
+    border:none; 
+    background-color:inherit;
+    font-size: 13px;
+    display: inline-block;
+    border: 0.5px outset red;
+    border-radius: 8px;
+    text-align: right;
+}
