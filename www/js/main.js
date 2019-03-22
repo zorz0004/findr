@@ -63,7 +63,7 @@ const zorz0004 = {
     },
 
     placeMarkerAndPanTo: function(latLng, map){
-        var marker = new google.maps.Marker({
+        let marker = new google.maps.Marker({
             position: latLng,
             map: map,
             click: true
@@ -151,7 +151,8 @@ const zorz0004 = {
                 await zorz0004.RemoveMarker(element);
                 //Update markers on map
                 await zorz0004.initMap();
-                // zorz0004.setSavedMarkers();
+                //await savedMarker.setMap(null); -- Don't work, the marker still on page with odd infowindow.
+                zorz0004.setSavedMarkers();
             });
         })
     },
