@@ -10,8 +10,9 @@ const zorz0004 = {
     long: 0,
     lat: 0,
     map: {},
-    init: function(){
+    init: async function(){
         zorz0004.initMap();
+   
     },
 
     initMap: function(){
@@ -55,6 +56,8 @@ const zorz0004 = {
                 p.textContent = `${err.code} - ${err.message}`;
                 document.body.appendChild(p); 
             }, opts);
+        }else{
+            alert("FINDR could not access your location service");
         }
 
     },
